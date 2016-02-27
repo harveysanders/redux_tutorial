@@ -1,0 +1,23 @@
+{
+  "name": "redux_tuts",
+  "version": "1.0.0",
+  "description": "Project for learning Redux with Dan Abramov's Egghead tuts",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets babel-preset-react,es2015 src --out-dir js/ --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "functional",
+    "pure"
+  ],
+  "author": "Harvey Sanders",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
